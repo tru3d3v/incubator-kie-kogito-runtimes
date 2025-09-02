@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: [M-Macbook-Air ]
+    runs-on: [self-hosted, builder]
     permissions:
       contents: read
       packages: write
