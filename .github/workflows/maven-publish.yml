@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: [self-hosted, builder]
+    runs-on: [runner1]
     permissions:
       contents: read
       packages: write
