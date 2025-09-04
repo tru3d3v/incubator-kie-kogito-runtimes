@@ -30,7 +30,7 @@ If you have one or more `*.scesim` files in your project to execute, add this de
 
 ```xml
 <dependency>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-scenario-simulation</artifactId>
     <version>${kogito.version}</version>
 </dependency>

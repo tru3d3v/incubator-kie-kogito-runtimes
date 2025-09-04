@@ -81,7 +81,7 @@ To add a new extension you should replicate the same structure.
 - Add dependency to `kogito-quarkus-common`
 ```xml
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-common</artifactId>
     </dependency>
 ```
@@ -122,13 +122,13 @@ To add a new extension you should replicate the same structure.
 - Add dependencies
 ```xml
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-common-deployment</artifactId>
       <version>${project.version}</version>
     </dependency>
 
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-*</artifactId>
     </dependency>
 ```
@@ -143,7 +143,7 @@ deployment, if you want to prevent integration tests to run if deployment compil
 ```xml
     <!-- this is used implicitly by quarkus tests so let's make Maven aware of it -->
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-*-deployment</artifactId>
       <version>${project.version}</version>
       <type>pom</type>

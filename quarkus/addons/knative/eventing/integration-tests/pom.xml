@@ -39,7 +39,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.kie.kogito</groupId>
+                <groupId>io.github.tru3d3v</groupId>
                 <artifactId>kogito-quarkus-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

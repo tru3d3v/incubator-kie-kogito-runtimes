@@ -24,7 +24,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-runtimes</artifactId>
     <version>999-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
@@ -38,201 +38,201 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-events-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-events-api</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-events-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-events-core</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-common-objectmapper</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-common-objectmapper</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-common</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-common</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-application</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-application</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-processes</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-processes</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-processes-services</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-processes-services</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-predictions</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-predictions</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-predictions-services</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-predictions-services</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-decisions</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-decisions</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-decisions-services</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-decisions-services</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-rules</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-rules</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-rules-services</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-api-incubation-rules-services</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-incubation-common</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-incubation-common</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jobs-service-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jobs-service-api</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-services</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-services</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
@@ -533,24 +533,24 @@
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-timer</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-timer</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-maven-plugin</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-maven-plugin</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
@@ -558,47 +558,47 @@
 
       <!-- Codegen modules -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-api</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-api</artifactId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-core</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-processes</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-processes</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-processes</artifactId>
         <version>${project.version}</version>
         <type>test-jar</type>
@@ -606,45 +606,45 @@
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-rules</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-rules</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-decisions</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-decisions</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-predictions</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-predictions</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-manager</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-manager</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
@@ -794,12 +794,12 @@
 
       <!-- Grafana API     -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>grafana-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>grafana-api</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
@@ -1921,25 +1921,25 @@
 
 			<!-- drools -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-drools</artifactId>
         <version>${project.version}</version>
       </dependency>
 
 			<!-- DMN -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-dmn</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-dmn</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-dmn</artifactId>
         <version>${project.version}</version>
         <type>test-jar</type>
@@ -1948,34 +1948,34 @@
 
 			<!-- PMML -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-pmml-api-dependencies</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-pmml-dependencies</artifactId>
         <type>pom</type>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-pmml</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-pmml-openapi</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-pmml</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-pmml</artifactId>
         <version>${project.version}</version>
         <type>test-jar</type>
@@ -1983,7 +1983,7 @@
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-efesto-drl</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -1991,18 +1991,18 @@
 
 			<!-- Scenario Simulation Runner -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-scenario-simulation</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-scenario-simulation</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-scenario-simulation</artifactId>
         <version>${project.version}</version>
         <type>test-jar</type>
@@ -2011,340 +2011,340 @@
 
 			<!-- jbpm -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-deps-group-bpmn2-compiler</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-deps-group-compiler</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-deps-group-engine</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>process-workitems</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>process-workitems</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-flow-migration</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-usertask</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-usertask-workitem</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-flow-migration</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-flow</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-flow</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-flow-builder</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-flow-builder</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-flow-builder</artifactId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-bpmn2</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-bpmn2</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-xsd-resources</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>jbpm-xsd-resources</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>process-serialization-protobuf</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>process-serialization-protobuf</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-rest-workitem</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-rest-workitem</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
        <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-rest-utils</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-rest-utils</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-jackson-utils</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-jackson-utils</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-jsonpath-expression</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-jsonpath-expression</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-jq-expression</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-jq-expression</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-builder</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-builder</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-monitoring</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-monitoring</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
        
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-openapi-parser</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-openapi-parser</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-openapi-generated</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-openapi-generated</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-openapi-generated-deployment</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-openapi-generated-deployment</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-openapi-common</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-openapi-common</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-grpc-parser</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-grpc-parser</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-grpc-runtime</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-grpc-runtime</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-dmn-parser</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-dmn-parser</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-dmn</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-dmn</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-rest-parser</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-rest-parser</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-rest-runtime</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-rest-runtime</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-python-runtime</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-python-runtime</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-rest</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-rest</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
        <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-python</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-python</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
@@ -2372,79 +2372,79 @@
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-grpc</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-grpc</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-kafka</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-kafka</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-core</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-service</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-executor-service</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-fluent</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-fluent</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-utils</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-utils</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-runtime</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-serverless-workflow-runtime</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
@@ -2561,46 +2561,46 @@
       </dependency>
 
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-common</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-common</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-common-deployment</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-common-deployment</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-workflow-common</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-workflow-common</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-workflow-common-deployment</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
     <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-workflow-common-deployment</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -2637,13 +2637,13 @@
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-extension-spi</artifactId>
         <version>${project.version}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-extension-spi</artifactId>
         <version>${project.version}</version>
       </dependency>

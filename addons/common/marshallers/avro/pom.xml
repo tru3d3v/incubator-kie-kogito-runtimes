@@ -38,7 +38,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-events-core</artifactId>
     </dependency>
     <dependency>
@@ -64,7 +64,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-events-core</artifactId>
       <scope>test</scope>
       <version>${project.version}</version>

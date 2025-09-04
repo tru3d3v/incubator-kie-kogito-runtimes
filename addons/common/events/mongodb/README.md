@@ -32,7 +32,7 @@ To enable this events publisher, make sure dependency for the Kafka events publi
 1. Quarkus:
 ```xml
 <dependency>
-  <groupId>org.kie.kogito</groupId>
+  <groupId>io.github.tru3d3v</groupId>
   <artifactId>kogito-addons-quarkus-events-smallrye</artifactId>
 </dependency>
 ```

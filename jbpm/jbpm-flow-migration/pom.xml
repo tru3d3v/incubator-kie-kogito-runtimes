@@ -24,7 +24,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>jbpm</artifactId>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <version>999-SNAPSHOT</version>
     </parent>
 
@@ -38,7 +38,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>jbpm-flow</artifactId>
         </dependency>
         <dependency>
@@ -46,7 +46,7 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>process-serialization-protobuf</artifactId>
         </dependency>
 
@@ -81,7 +81,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.kie.kogito</groupId>
+                <groupId>io.github.tru3d3v</groupId>
                 <artifactId>kogito-kie-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

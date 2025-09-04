@@ -23,7 +23,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>integration-tests-quarkus-processes-persistence</artifactId>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <version>999-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
@@ -48,11 +48,11 @@
       <artifactId>kie-addons-quarkus-process-management</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>integration-tests-processes-persistence-common</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>integration-tests-processes-persistence-common</artifactId>
       <type>test-jar</type>
       <scope>test</scope>

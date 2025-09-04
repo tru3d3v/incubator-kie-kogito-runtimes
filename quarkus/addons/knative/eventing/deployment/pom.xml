@@ -52,11 +52,11 @@
       <artifactId>quarkus-kubernetes-spi</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-events-api</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-extension-spi</artifactId>
     </dependency>
 
@@ -65,7 +65,7 @@
       <artifactId>kogito-addons-quarkus-common-deployment</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-common-deployment</artifactId>
     </dependency>
     <dependency>

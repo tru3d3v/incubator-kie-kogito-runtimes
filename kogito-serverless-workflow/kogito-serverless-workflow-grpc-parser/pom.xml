@@ -24,7 +24,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-serverless-workflow</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
@@ -40,12 +40,12 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-builder</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-grpc-runtime</artifactId>
     </dependency>
   </dependencies>

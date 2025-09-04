@@ -39,7 +39,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-api</artifactId>
     </dependency>
     <dependency>
@@ -84,7 +84,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>process-workitems</artifactId>
       <scope>test</scope>
     </dependency>

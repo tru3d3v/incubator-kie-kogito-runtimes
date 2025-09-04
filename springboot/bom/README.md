@@ -36,7 +36,7 @@ Simply add the BOM in your module's `pom.xml` file:
 <dependencyManagement>
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-spring-boot-bom</artifactId>
       <version>${project.version}</version>
       <type>pom</type>

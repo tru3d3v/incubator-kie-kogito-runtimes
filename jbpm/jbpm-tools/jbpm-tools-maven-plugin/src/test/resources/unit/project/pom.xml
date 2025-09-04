@@ -36,7 +36,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.kie.kogito</groupId>
+                <groupId>io.github.tru3d3v</groupId>
                 <artifactId>jbpm-tools-maven-plugin</artifactId>
                 <configuration>
                     <project implementation="org.jbpm.tools.maven.ProcessCodegenMojoProjectStub"/>

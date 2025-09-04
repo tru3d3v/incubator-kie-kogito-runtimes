@@ -24,7 +24,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>kogito-api-parent</artifactId>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <version>999-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>

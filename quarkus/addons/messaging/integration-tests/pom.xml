@@ -70,7 +70,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-dmn</artifactId>
       <version>${project.version}</version>
       <type>test-jar</type>

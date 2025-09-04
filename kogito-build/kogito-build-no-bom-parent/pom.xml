@@ -25,7 +25,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <!-- The Kogito Dependencies BOM is inherited here to reuse all the version properties defined there and used across our internal modules. -->
     <artifactId>kogito-dependencies-bom</artifactId>
     <version>999-SNAPSHOT</version>
@@ -515,7 +515,7 @@
           <dependencies>
             <dependency>
               <artifactId>kogito-ide-config</artifactId>
-              <groupId>org.kie.kogito</groupId>
+              <groupId>io.github.tru3d3v</groupId>
               <version>${project.version}</version>
             </dependency>
           </dependencies>

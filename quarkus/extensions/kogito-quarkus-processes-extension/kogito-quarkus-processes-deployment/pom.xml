@@ -38,7 +38,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-workflow-common-deployment</artifactId>
     </dependency>
     <dependency>

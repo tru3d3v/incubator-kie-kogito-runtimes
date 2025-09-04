@@ -24,7 +24,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-serverless-workflow</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
@@ -41,19 +41,19 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-executor-grpc</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-openapi-parser</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-executor-rest</artifactId>
     </dependency>
       <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-executor-kafka</artifactId>
       <scope>test</scope>
     </dependency>
@@ -83,7 +83,7 @@
       <scope>test</scope>
     </dependency>
        <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-fluent</artifactId>
       <scope>test</scope>
     </dependency>

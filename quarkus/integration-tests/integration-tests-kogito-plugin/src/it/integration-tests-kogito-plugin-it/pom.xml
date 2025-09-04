@@ -21,7 +21,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>integration-tests-kogito-plugin-it</artifactId>
     <version>@project.version@</version>
 
@@ -37,7 +37,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.kie.kogito</groupId>
+                <groupId>io.github.tru3d3v</groupId>
                 <artifactId>kogito-quarkus-bom</artifactId>
                 <version>${kogito.version}</version>
                 <type>pom</type>
@@ -103,7 +103,7 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.kie.kogito</groupId>
+                <groupId>io.github.tru3d3v</groupId>
                 <artifactId>kogito-maven-plugin</artifactId>
                 <version>${kogito.version}</version>
                 <configuration>

@@ -23,7 +23,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>springboot</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
@@ -36,7 +36,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-spring-boot-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -48,7 +48,7 @@
   <dependencies>
     <!-- these are used implicitly required by archetype integration test so let's make Maven aware of it -->
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-maven-plugin</artifactId>
       <scope>provided</scope>
     </dependency>

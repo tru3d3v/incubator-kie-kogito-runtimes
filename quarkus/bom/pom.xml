@@ -25,7 +25,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>quarkus</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>

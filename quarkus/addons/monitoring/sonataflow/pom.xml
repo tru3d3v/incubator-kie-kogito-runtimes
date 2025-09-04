@@ -35,7 +35,7 @@
       <artifactId>kie-addons-quarkus-monitoring-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-monitoring</artifactId>
     </dependency>
   </dependencies>

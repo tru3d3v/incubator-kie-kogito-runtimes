@@ -35,7 +35,7 @@ class AddDependencyToPomWithTextReplaceTest extends Specification {
         artifacts.each {
             dependencies <<
                     '    <dependency>\n' +
-                    '       <groupId>org.kie.kogito</groupId>\n' +
+                    '       <groupId>io.github.tru3d3v</groupId>\n' +
                     '       <artifactId>' + it + '</artifactId>\n' +
                     '       <version>${project.version}</version>\n' +
                     '     </dependency>\n'

@@ -108,12 +108,12 @@
     </dependency>
     <!-- Testing dependencies -->
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-test-utils</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-test-utils</artifactId>
       <scope>test</scope>
     </dependency>
@@ -224,7 +224,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-serverless-workflow-builder</artifactId>
     </dependency>
   </dependencies>

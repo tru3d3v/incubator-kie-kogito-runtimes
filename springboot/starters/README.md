@@ -30,7 +30,7 @@ Before jumping into the starters, consider adding the Kogito Spring Boot BOM to 
 <dependencyManagement>
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-spring-boot-bom</artifactId>
       <version>${version.kogito}</version>
       <type>pom</type>

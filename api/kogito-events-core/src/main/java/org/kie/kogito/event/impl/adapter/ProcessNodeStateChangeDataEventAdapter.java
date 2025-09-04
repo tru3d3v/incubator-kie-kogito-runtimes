@@ -19,18 +19,21 @@
 
 package org.kie.kogito.event.impl.adapter;
 
-import org.kie.api.event.process.ProcessNodeStateChangeEvent;
+// import org.kie.api.event.process.ProcessNodeStateChangeEvent;
+import org.kie.api.event.process.ProcessNodeEvent;
 import org.kie.kogito.event.DataEvent;
 import org.kie.kogito.event.process.ProcessInstanceNodeEventBody;
 
 public class ProcessNodeStateChangeDataEventAdapter extends AbstractDataEventAdapter {
 
     public ProcessNodeStateChangeDataEventAdapter() {
-        super(ProcessNodeStateChangeEvent.class);
+        // super(ProcessNodeStateChangeEvent.class);
+        super(ProcessNodeEvent.class);
     }
 
     @Override
     public DataEvent<?> adapt(Object payload) {
-        return toProcessInstanceNodeEvent((ProcessNodeStateChangeEvent) payload, ProcessInstanceNodeEventBody.EVENT_TYPE_UPDATED);
+        //return toProcessInstanceNodeEvent((ProcessNodeStateChangeEvent) payload, ProcessInstanceNodeEventBody.EVENT_TYPE_UPDATED);
+        return toProcessInstanceNodeEvent((ProcessNodeEvent) payload, ProcessInstanceNodeEventBody.EVENT_TYPE_UPDATED);
     }
 }

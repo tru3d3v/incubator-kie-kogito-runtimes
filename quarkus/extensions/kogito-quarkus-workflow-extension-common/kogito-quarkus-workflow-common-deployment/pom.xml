@@ -24,7 +24,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-quarkus-workflow-extension-common</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
@@ -40,11 +40,11 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-workflow-common</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-common-deployment</artifactId>
     </dependency>
     <dependency>
@@ -56,16 +56,16 @@
       <artifactId>maven-artifact</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-extension-spi</artifactId>
     </dependency>
     <!-- codegen dependencies -->
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-codegen-processes</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-codegen-processes</artifactId>
       <type>test-jar</type>
       <scope>test</scope>

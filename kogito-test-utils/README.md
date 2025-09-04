@@ -24,7 +24,7 @@ Add the needed utils dependency in the _pom.xml_ file:
 ### Framework agnostic
 ```xml
 <dependency>
-  <groupId>org.kie.kogito</groupId>
+  <groupId>io.github.tru3d3v</groupId>
   <artifactId>kogito-test-utils</artifactId>
   <scope>test</scope>
 </dependency>
@@ -33,7 +33,7 @@ Add the needed utils dependency in the _pom.xml_ file:
 ### Quarkus
 ```xml
 <dependency>
-  <groupId>org.kie.kogito</groupId>
+  <groupId>io.github.tru3d3v</groupId>
   <artifactId>kogito-quarkus-test-utils</artifactId>
   <scope>test</scope>
 </dependency>
@@ -42,7 +42,7 @@ Add the needed utils dependency in the _pom.xml_ file:
 ### Spring Boot
 ```xml
 <dependency>
-  <groupId>org.kie.kogito</groupId>
+  <groupId>io.github.tru3d3v</groupId>
   <artifactId>kogito-spring-boot-test-utils</artifactId>
   <scope>test</scope>
 </dependency>

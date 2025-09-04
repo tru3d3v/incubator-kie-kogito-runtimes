@@ -25,7 +25,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <!-- The Kogito Dependencies BOM is transitively inherited here to reuse all the version properties defined there and used across our internal modules. -->
     <artifactId>kogito-build-no-bom-parent</artifactId>
     <version>999-SNAPSHOT</version>
@@ -41,7 +41,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -49,12 +49,12 @@
       </dependency>
       <!-- Integration tests -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>integration-tests-processes-persistence-common</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>integration-tests-processes-persistence-common</artifactId>
         <version>${project.version}</version>
         <type>test-jar</type>
@@ -63,17 +63,17 @@
       <!-- NOTE: don't change scope of this dependency to test to avoid problem with maven-invoker-plugin localRepositoryPath creation
       in springboot integration tests -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-test-utils</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-test-utils</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-spring-boot-test-utils</artifactId>
         <version>${project.version}</version>
       </dependency>

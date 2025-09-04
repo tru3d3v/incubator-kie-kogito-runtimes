@@ -28,7 +28,7 @@
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.kie.kogito</groupId>
+  <groupId>io.github.tru3d3v</groupId>
   <artifactId>kogito-runtimes</artifactId>
   <version>999-SNAPSHOT</version>
   <packaging>pom</packaging>

@@ -24,7 +24,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>drools</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
@@ -41,7 +41,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-kie-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -66,11 +66,11 @@
     </dependency>
 
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-api</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-drools</artifactId>
     </dependency>
 

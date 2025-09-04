@@ -40,7 +40,7 @@ In your Kogito project root `pom.xml` file, add the following plugin declaration
 
 ```      
 <plugin>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-maven-plugin</artifactId>
     <version>${version.org.kie.kogito}</version>
     <executions>

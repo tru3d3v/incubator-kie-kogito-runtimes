@@ -21,7 +21,7 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-quarkus-integration-tests</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
@@ -35,14 +35,14 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-quarkus-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-kie-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -53,7 +53,7 @@
 
   <dependencies>
     <dependency> <!-- make this IT module to depend on the plugin for Maven reactor build intention -->
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-maven-plugin</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -68,19 +68,19 @@
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-bom</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-bom</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-kie-bom</artifactId>
       <version>${project.version}</version>
       <type>pom</type>

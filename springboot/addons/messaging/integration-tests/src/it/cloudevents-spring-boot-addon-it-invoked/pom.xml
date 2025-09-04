@@ -30,7 +30,7 @@
     <version>@version.org.springframework.boot@</version>
   </parent>
 
-  <groupId>org.kie.kogito</groupId>
+  <groupId>io.github.tru3d3v</groupId>
   <artifactId>kogito-cloudevents-spring-boot-addon-it-invoked</artifactId>
   <version>@project.version@</version>
 
@@ -41,7 +41,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-spring-boot-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -84,7 +84,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-maven-plugin</artifactId>
         <version>${project.version}</version> <!-- Needed, otherwise it would use the latest release found on Maven central -->
         <executions>

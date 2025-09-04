@@ -23,7 +23,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-codegen-sample</artifactId>
         <version>999-SNAPSHOT</version>
     </parent>
@@ -37,20 +37,20 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>kogito-codegen-api</artifactId>
         </dependency>
 
         <!-- test -->
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>kogito-codegen-api</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
 <!--    Required because of FileSystemResource   -->
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>kogito-drools</artifactId>
             <scope>test</scope>
         </dependency>

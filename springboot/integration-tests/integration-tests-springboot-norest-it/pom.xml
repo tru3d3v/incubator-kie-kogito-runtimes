@@ -23,7 +23,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-spring-boot-integration-tests</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
@@ -37,7 +37,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-spring-boot-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -125,7 +125,7 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-maven-plugin</artifactId>
         <version>${project.version}</version> <!-- Needed, otherwise it would use the latest release found on Maven central -->
         <executions>

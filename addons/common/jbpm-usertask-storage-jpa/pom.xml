@@ -48,11 +48,11 @@
             <artifactId>slf4j-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>kogito-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>jbpm-usertask</artifactId>
         </dependency>
 

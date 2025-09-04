@@ -44,7 +44,7 @@
             <artifactId>kie-quarkus-predictions</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>kogito-api-incubation-predictions-services</artifactId>
         </dependency>
         <dependency>

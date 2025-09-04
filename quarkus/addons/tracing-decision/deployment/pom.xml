@@ -45,7 +45,7 @@
       <artifactId>kogito-addons-quarkus-common-deployment</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-quarkus-extension-spi</artifactId>
     </dependency>
     <dependency>

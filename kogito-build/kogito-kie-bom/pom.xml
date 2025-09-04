@@ -22,7 +22,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-build</artifactId>
     <version>999-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
@@ -38,6 +38,8 @@
 
   <properties>
     <version.org.kie>999-SNAPSHOT</version.org.kie>
+       <!-- <version.org.kie>10.1.0</version.org.kie>-->
+
   </properties>
 
   <dependencyManagement>
@@ -260,11 +262,15 @@
         <artifactId>kie-dmn-efesto-compilation</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
-      <dependency>
+   
+
+
+     <dependency>
         <groupId>org.kie</groupId>
         <artifactId>kie-dmn-efesto-runtime</artifactId>
         <version>${version.org.kie}</version>
-      </dependency>
+      </dependency> 
+    
 
       <!-- PMML -->
       <dependency>

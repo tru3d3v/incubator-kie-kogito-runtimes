@@ -107,7 +107,7 @@ You can check sample generator for a full example but in general the rules are:
   add following dependencies
   ```xml
   <dependency>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-codegen-api</artifactId>
     <type>test-jar</type>
     <scope>test</scope>

@@ -23,7 +23,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie.kogito</groupId>
+    <groupId>io.github.tru3d3v</groupId>
     <artifactId>kogito-build-parent</artifactId>
     <version>999-SNAPSHOT</version>
     <relativePath>../kogito-build/kogito-build-parent/pom.xml</relativePath>
@@ -43,7 +43,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>

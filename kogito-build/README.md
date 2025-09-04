@@ -42,7 +42,7 @@ Add this section to your `pom.xml` file:
 <dependencyManagement>
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-bom</artifactId>
       <version>${kogito.version}</version>
       <type>pom</type>
@@ -111,7 +111,7 @@ Add this section to your `pom.xml` file:
 <dependencyManagement>
   <dependencies>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-spring-boot-bom</artifactId>
       <version>${kogito.version}</version>
       <type>pom</type>

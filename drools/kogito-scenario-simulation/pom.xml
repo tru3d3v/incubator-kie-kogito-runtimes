@@ -24,7 +24,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>drools</artifactId>
         <version>999-SNAPSHOT</version>
     </parent>
@@ -41,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.kie.kogito</groupId>
+                <groupId>io.github.tru3d3v</groupId>
                 <artifactId>kogito-kie-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -53,12 +53,12 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>kogito-dmn</artifactId>
         </dependency>
       <!-- PMML -->
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-pmml</artifactId>
       </dependency>
      <!-- EFESTO -->
@@ -76,10 +76,7 @@
         <groupId>org.kie</groupId>
         <artifactId>kie-dmn-efesto-compilation</artifactId>
       </dependency>
-      <dependency>
-        <groupId>org.kie</groupId>
-        <artifactId>kie-dmn-efesto-runtime</artifactId>
-      </dependency>
+
 
 
         <!-- Used indirectly by PMML during compilation of Drools based models  -->
@@ -90,7 +87,7 @@
 
         <!-- The runner compiles and executes the model on the fly so it requires dynamic loading  -->
         <dependency>
-            <groupId>org.kie.kogito</groupId>
+            <groupId>io.github.tru3d3v</groupId>
             <artifactId>kogito-drools</artifactId>
         </dependency>
         <dependency>

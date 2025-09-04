@@ -43,7 +43,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-spring-boot-bom</artifactId>
         <version>${kogito.version}</version>
         <type>pom</type>
@@ -86,7 +86,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-maven-plugin</artifactId>
         <version>${kogito.version}</version>
         <executions>

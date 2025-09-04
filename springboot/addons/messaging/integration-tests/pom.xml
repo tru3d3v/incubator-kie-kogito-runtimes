@@ -42,7 +42,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <artifactId>kogito-kie-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -55,23 +55,23 @@
     <!-- All the dependency of this module are here just to make Maven reactor aware that invoker tests need them -->
     <!-- NOTE: don't change their scope because otherwise maven-invoker-plugin is not going to install them in localRepositoryPath  -->
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-maven-plugin</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-spring-boot-bom</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-bom</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
     <dependency>
-      <groupId>org.kie.kogito</groupId>
+      <groupId>io.github.tru3d3v</groupId>
       <artifactId>kogito-kie-bom</artifactId>
       <version>${project.version}</version>
       <type>pom</type>

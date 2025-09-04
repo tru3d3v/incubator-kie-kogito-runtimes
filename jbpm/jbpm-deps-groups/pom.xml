@@ -27,7 +27,7 @@ under the License.
 
     <parent>
         <artifactId>jbpm</artifactId>
-        <groupId>org.kie.kogito</groupId>
+        <groupId>io.github.tru3d3v</groupId>
         <version>999-SNAPSHOT</version>
     </parent>
 
