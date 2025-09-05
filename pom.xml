@@ -45,15 +45,13 @@
   </organization>
 
   <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
     <repository>
-      <id>central-portal-snapshots</id>
-      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
   
@@ -66,9 +64,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:https://github.com/apache/incubator-kie-kogito-runtimes.git</connection>
-    <developerConnection>scm:git:https://github.com/apache/incubator-kie-kogito-runtimes.git</developerConnection>
-    <url>https://github.com/apache/incubator-kie-kogito-runtimes</url>
+    <connection>scm:git:https://github.com/tru3d3v/incubator-kie-kogito-runtimes.git</connection>
+    <developerConnection>scm:git:https://github.com/tru3d3v/incubator-kie-kogito-runtimes.git</developerConnection>
+    <url>https://github.com/tru3d3v/incubator-kie-kogito-runtimes</url>
   </scm>
 
   <developers>
@@ -121,31 +119,57 @@
   <plugins>
 
 
-    <plugin>
+    <!--<plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-deploy-plugin</artifactId>
       <configuration>
         <skip>true</skip>
       </configuration>
-    </plugin> 
-    
+    </plugin> -->
     <plugin>
-      <groupId>org.sonatype.central</groupId>
-      <artifactId>central-publishing-maven-plugin</artifactId>
-      <version>0.8.0</version>
-      <extensions>true</extensions>
-      <configuration>
-         <publishingServerId>central-portal-snapshots</publishingServerId>
-         <autoPublish>true</autoPublish>
-      </configuration>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-source-plugin</artifactId>
+      <version>2.2.1</version>
+      <executions>
+        <execution>
+          <id>attach-sources</id>
+          <goals>
+            <goal>jar-no-fork</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-javadoc-plugin</artifactId>
+      <version>2.9.1</version>
+      <executions>
+        <execution>
+          <id>attach-javadocs</id>
+          <goals>
+            <goal>jar</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-gpg-plugin</artifactId>
+      <version>1.5</version>
+      <executions>
+        <execution>
+          <id>sign-artifacts</id>
+          <phase>verify</phase>
+          <goals>
+            <goal>sign</goal>
+          </goals>
+        </execution>
+      </executions>
     </plugin>
 
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-source-plugin</artifactId>
-        <version>3.2.1</version>
-    </plugin>
-    
+
+
+
   </plugins>
   </build>
 
