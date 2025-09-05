@@ -31,8 +31,6 @@
   <name>Kogito :: IDE/Tools - Config</name>
 
   <artifactId>kogito-ide-config</artifactId>
-
-
-
+  <packaging>pom</packaging>
 
 </project>
