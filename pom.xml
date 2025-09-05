@@ -21,11 +21,11 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-  <parent>
+  <!--<parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>32</version>
-  </parent>
+  </parent> -->
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.tru3d3v</groupId>
@@ -116,13 +116,15 @@
 
   <build>
   <plugins>
-    <plugin>
+
+
+   <!-- <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-deploy-plugin</artifactId>
       <configuration>
         <skip>true</skip>
       </configuration>
-    </plugin>
+    </plugin> -->
     
     <plugin>
       <groupId>org.sonatype.central</groupId>
