@@ -48,9 +48,9 @@ jobs:
 
       # Langkah 3: Menjalankan build Maven (membersihkan, mengemas, dan melewati tes)
       - name: Build with Maven
-        run: mvn -B clean package --file pom.xml -DskipTests
+        run: mvn -B clean package --file pom.xml -DskipTests -U
 
       # Langkah 4: Melakukan deploy artefak ke Sonatype Central
       # Tidak perlu flag '-s' karena settings.xml sudah otomatis dikonfigurasi oleh 'setup-java'
       - name: Publish to Sonatype Central
-        run: mvn -B central-publishing:publish
+        run: mvn -B central-publishing:publish -U
