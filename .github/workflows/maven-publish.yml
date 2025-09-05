@@ -1,36 +1,56 @@
-# This workflow will build a package using Maven and then publish it to GitHub packages when a release is created
-# For more information see: re trigger https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#apache-maven-with-a-settings-path
-
+# Nama workflow yang akan muncul di tab Actions GitHub
 name: Build kogito package
 
+# Kondisi kapan workflow ini akan dijalankan
 on:
+  # 1. Saat sebuah release baru dibuat
   release:
     types: [created]
+
+  # 2. Saat ada push ke branch 'dev'
+  # Catatan: Ini akan mencoba 'deploy' setiap kali ada push ke dev.
+  # Pertimbangkan untuk menghapus trigger 'push' jika deploy hanya diinginkan saat rilis.
   push:
     branches: [ "dev" ]
 
+# Mendefinisikan satu atau lebih pekerjaan (jobs) yang akan dijalankan
 jobs:
+  # Nama job (bisa apa saja)
   build:
+    # Menjalankan job ini di runner self-hosted Anda yang bernama 'runner1'
+    runs-on: runner1
 
-    runs-on: [runner1]
+    # Izin yang diberikan kepada workflow. Cukup 'read' untuk checkout kode.
     permissions:
       contents: read
-      packages: write
 
+    # Langkah-langkah yang akan dieksekusi secara berurutan
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up JDK 21
-      uses: actions/setup-java@v4
-      with:
-        java-version: '21'
-        distribution: 'temurin'
-        server-id: central-portal-snapshots # Value of the distributionManagement/repository/id field of the pom.xml
-        settings-path: ${{ github.workspace }} # location for the settings.xml file
+      # Langkah 1: Mengunduh kode dari repositori ke runner
+      - name: Checkout repository code
+        uses: actions/checkout@v4
 
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml -DskipTests
+      # Langkah 2: Menginstal JDK dan mengonfigurasi autentikasi Maven
+      - name: Set up JDK 21 and Maven Central Authentication
+        uses: actions/setup-java@v4
+        with:
+          # Menggunakan Java versi 21 dari Temurin
+          java-version: '21'
+          distribution: 'temurin'
 
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
+          # Action ini akan membuat file settings.xml secara otomatis dengan detail berikut:
+          # ID server harus cocok dengan <id> di dalam <distributionManagement> pada pom.xml
+          server-id: central-portal-snapshots
+
+          # Mengambil username dan password dari GitHub Secrets
+          server-username: ${{ secrets.OSSRH_USERNAME }}
+          server-password: ${{ secrets.OSSRH_TOKEN }}
+
+      # Langkah 3: Menjalankan build Maven (membersihkan, mengemas, dan melewati tes)
+      - name: Build with Maven
+        run: mvn -B clean package --file pom.xml -DskipTests
+
+      # Langkah 4: Melakukan deploy artefak ke Sonatype Central
+      # Tidak perlu flag '-s' karena settings.xml sudah otomatis dikonfigurasi oleh 'setup-java'
+      - name: Publish to Sonatype Central
+        run: mvn deploy
