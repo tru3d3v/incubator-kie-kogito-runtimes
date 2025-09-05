@@ -31,9 +31,7 @@
 
   <artifactId>kogito-api</artifactId>
   <packaging>jar</packaging>
-  <properties>
-    <maven.deploy.skip>true</maven.deploy.skip>
-  </properties>
+
 
 
   <name>Kogito :: API :: Public API</name>
@@ -41,6 +39,7 @@
 
   <properties>
     <java.module.name>org.kie.kogito.api</java.module.name>
+    <maven.deploy.skip>true</maven.deploy.skip>
   </properties>
 
   <dependencyManagement>
