@@ -38,7 +38,7 @@
   <modules>
     <module>kogito-build-no-bom-parent</module>
     <module>kogito-build-parent</module>
-    <module>kogito-ide-config</module>
+    <!--<module>kogito-ide-config</module>-->
     <module>kogito-kie-bom</module>
     <module>kogito-dependencies-bom</module>
   </modules>
