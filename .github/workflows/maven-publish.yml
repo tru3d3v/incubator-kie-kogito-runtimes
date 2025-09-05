@@ -55,4 +55,4 @@ jobs:
       # Langkah 4: Melakukan deploy artefak ke Sonatype Central
       # Tidak perlu flag '-s' karena settings.xml sudah otomatis dikonfigurasi oleh 'setup-java'
       - name: Publish to Sonatype Central
-        run: mvn -B org.sonatype.central:central-publishing-maven-plugin:0.8.0:publish -U -pl '!kogito-api'
+        run: mvn -B org.sonatype.central:central-publishing-maven-plugin:0.8.0:publish -U -pl '!kogito-ide-config,!kogito-api'
