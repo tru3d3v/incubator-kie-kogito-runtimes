@@ -514,15 +514,15 @@
           <version>${version.formatter.plugin}</version>
 
           <dependencies>
-            <dependency>
+           <!-- <dependency>
               <artifactId>kogito-ide-config</artifactId>
               <groupId>io.github.tru3d3v</groupId>
               <version>${project.version}</version>
-            </dependency>
+            </dependency> -->
           </dependencies>
           <configuration>
-            <configFile>eclipse-format.xml</configFile>
-            <!--<configFile>${maven.multiModuleProjectDirectory}/eclipse-format.xml</configFile>-->
+            <!--<configFile>eclipse-format.xml</configFile>-->
+            <configFile>${maven.multiModuleProjectDirectory}/eclipse-format.xml</configFile>
 
             <lineEnding>LF</lineEnding>
             <skip>${formatter.skip}</skip>
