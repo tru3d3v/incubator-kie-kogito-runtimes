@@ -45,6 +45,10 @@ jobs:
           # Mengambil username dan password dari GitHub Secrets
           server-username: ${{ secrets.OSSRH_USERNAME }}
           server-password: ${{ secrets.OSSRH_TOKEN }}
+          # GPG
+          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
+
 
       - name: Manually provide formatter config file
         run: cp kogito-build/kogito-ide-config/src/main/resources/eclipse-format.xml .
@@ -54,5 +58,7 @@ jobs:
 
       # Langkah 4: Melakukan deploy artefak ke Sonatype Central
       # Tidak perlu flag '-s' karena settings.xml sudah otomatis dikonfigurasi oleh 'setup-java'
-      - name: Publish to Sonatype Central
-        run: mvn -B org.sonatype.central:central-publishing-maven-plugin:0.8.0:publish -U
+      #- name: Publish to Sonatype Central
+      #  run: mvn -B org.sonatype.central:central-publishing-maven-plugin:0.8.0:publish -U
+      - name: Build, Sign, and Deploy to Sonatype Central
+        run: mvn -B clean deploy -DskipTests -U --file pom.xml
