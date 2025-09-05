@@ -31,8 +31,8 @@
   <name>Kogito :: IDE/Tools - Config</name>
 
   <artifactId>kogito-ide-config</artifactId>
-
-  <build>
+  
+  <packaging>pom</packaging> <build>
     <plugins>
       <plugin>
         <groupId>org.sonatype.central</groupId>
@@ -44,5 +44,6 @@
     </plugins>
   </build>
 
+  
 
 </project>
