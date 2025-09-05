@@ -512,6 +512,7 @@
           <groupId>net.revelc.code.formatter</groupId>
           <artifactId>formatter-maven-plugin</artifactId>
           <version>${version.formatter.plugin}</version>
+
           <dependencies>
             <!--<dependency>
               <artifactId>kogito-ide-config</artifactId>
@@ -520,7 +521,9 @@
             </dependency> -->
           </dependencies>
           <configuration>
-            <configFile>eclipse-format.xml</configFile>
+            <!--<configFile>eclipse-format.xml</configFile>-->
+            <configFile>${maven.multiModuleProjectDirectory}/eclipse-format.xml</configFile>
+
             <lineEnding>LF</lineEnding>
             <skip>${formatter.skip}</skip>
           </configuration>

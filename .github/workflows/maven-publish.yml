@@ -46,6 +46,8 @@ jobs:
           server-username: ${{ secrets.OSSRH_USERNAME }}
           server-password: ${{ secrets.OSSRH_TOKEN }}
 
+      - name: Manually provide formatter config file
+        run: cp kogito-build/kogito-ide-config/src/main/resources/eclipse-format.xml .
       # Langkah 3: Menjalankan build Maven (membersihkan, mengemas, dan melewati tes)
       - name: Build with Maven
         run: mvn -B clean package --file pom.xml -DskipTests -U
