@@ -40,7 +40,7 @@ jobs:
 
           # Action ini akan membuat file settings.xml secara otomatis dengan detail berikut:
           # ID server harus cocok dengan <id> di dalam <distributionManagement> pada pom.xml
-          server-id: ossrh
+          server-id: central
 
           # Mengambil username dan password dari GitHub Secrets
           server-username: ${{ secrets.OSSRH_USERNAME }}
