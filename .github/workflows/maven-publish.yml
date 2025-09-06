@@ -61,4 +61,4 @@ jobs:
       #- name: Publish to Sonatype Central
       #  run: mvn -B org.sonatype.central:central-publishing-maven-plugin:0.8.0:publish -U
       - name: Build, Sign, and Deploy to Sonatype Central
-        run: mvn -B -s settings.xml clean deploy -DskipTests -U --file pom.xml -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }}
+        run: mvn -B clean deploy -DskipTests -U --file pom.xml -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }}
