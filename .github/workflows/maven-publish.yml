@@ -40,14 +40,13 @@ jobs:
 
           # Action ini akan membuat file settings.xml secara otomatis dengan detail berikut:
           # ID server harus cocok dengan <id> di dalam <distributionManagement> pada pom.xml
-          server-id: io.github.tru3d3v
-
+          server-id: central
           # Mengambil username dan password dari GitHub Secrets
           server-username: ${{ secrets.OSSRH_USERNAME }}
           server-password: ${{ secrets.OSSRH_TOKEN }}
           # GPG
-          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
-          gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          #gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          #gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
 
       - name: Manually provide formatter config file
@@ -61,4 +60,4 @@ jobs:
       #- name: Publish to Sonatype Central
       #  run: mvn -B org.sonatype.central:central-publishing-maven-plugin:0.8.0:publish -U 
       - name: Build, Sign, and Deploy to Sonatype Central
-        run: mvn -B clean deploy --file pom.xml -DskipTests -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }} -U
+        run: mvn -B clean deploy --file pom.xml -DskipTests -U
